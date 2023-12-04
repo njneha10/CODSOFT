@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playpen+Sans:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><a class="tag-name" href="#">Neha's Portfolio</a></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#works">My Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <span class="text-grey">Hey There.<br>
+                    I'm Neha.</span>
+                <div class="brief">
+                    I'm a Front-End Web Developer.<br>
+                    I am a fast learner and always up for exciting work!
+                </div>
+                <a href="https://drive.google.com/file/d/1iGwRchnFDjBTkJqiyvHTgUUMRToLpboH/view?usp=sharing" class="resume">Download CV</a>
+            </div>
+            <div class="rightsection">
+                <img src="./Images/bg.png">
+            </div>
+        </section>
+        <section id="works">
+            <div class="work-title">
+                <h3>My Projects</h3>
+                </div>
+            <div class="work-done">
+                <div class="card">
+                    <img src="./Images/dice.png" class="card-img">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/HTML" class="program-link">HTML</Html:5></a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/CSS" class="program-link">CSS</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/JavaScript" class="program-link">Javascript</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-desc">
+                        <p>
+                            This is a simple dice game. You can play it by clicking on the<br> dice image.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./Images/dog.png" class="card-img">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/HTML" class="program-link">HTML</Html:5></a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/CSS" class="program-link">CSS</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/JavaScript" class="program-link">Javascript</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-desc">
+                        <p>
+                            This is a simple dog website. I have it made it using html, CSS,<br> Javacript.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="skills">
+            <div class="skill-head">
+                <h1>
+                    My Skills
+                </h1>
+            </div>
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./Images/html2.png" class="skill-icon">
+                        </div>
+                        <h3>HTML</h3>
+                    </div>
+                    <P>The HyperText Markup Language or HTML is the standard markup language for documents designed
+                        to be displayed in a web browser. It defines the meaning and structure of web content</P>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./Images/css.png" class="skill-icon">
+                        </div>
+                        <h3>CSS</h3>
+                    </div>
+                    <P>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation
+                        of a
+                        document written in a markup language such as HTML or XML.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./Images/jss.png" class="skill-icon">
+                        </div>
+                        <h3>JAVASCRIPT</h3>
+                    </div>
+                    <P>JavaScript,often abbreviated as JS, is a programming language that is one of the core
+                        technologies of the World Wide Web, alongside HTML and CSS.</P>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="img">
+                            <img src="./Images/bootstrap.png" class="skill-icon">
+                        </div>
+                        <h3>BOOTSTRAP</h3>
+                    </div>
+                    <P>Bootstrap is a free and open-source CSS framework directed at responsive,
+                        mobile-first
+                        front-end web development. It contains HTML, CSS and (optionally) JavaScript-based
+                        design
+                        templates for typography, forms, buttons, navigation, and other interface
+                        components.</P>
+                </div>
+            </div>
+        </section>
+        <footer id="Contact">
+            
+            <section class="footer-head">
+                <h2>I'm always <br> interested in hearing about new projects, so if you'd like to chat please get in
+                    touch.
+                </h2>
+            </section>
+
+            <form class="footer-form" action="https://formspree.io/f/xdobnpad" method="post">
+                <input type="text" id="name" name="user-name" placeholder="Full Name" required maxlength="30">
+                <input type="email" id="email" name="user-email" placeholder="Email Address" required>
+                <textarea name="message" id="msg" maxlength="500" placeholder="Enter Text Here" required></textarea>
+                <button id="form-button" type="submit">Get in Touch</button>
+                <span></span>
+            </form>
+
+            <hr class="footer-social-network">
+
+            <ul class="footer-Links">
+                <li><a href="#"><img src="./Images/github.png" alt="Github account"></a></li>
+                <li><a href="#"><img src="./Images/linkedn.jpeg" alt="linkedin account"></a></li>
+                <li><a href="#"><img src="./Images/twitter.jpeg" alt="linkedin account"></a></li>
+
+
+            </ul>
+            <hr class="footer-end">
+        </footer>
+    </main>
+
+</body>
+
+</html>
